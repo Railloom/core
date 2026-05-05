@@ -1,0 +1,53 @@
+{
+  "name": "@railloom/core",
+  "version": "0.0.0-placeholder.0",
+  "description": "Production AI agents in TypeScript. v0.1 in active development — see github.com/Railloom/core for release timeline.",
+  "license": "MIT",
+  "homepage": "https://railloom.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Railloom/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Railloom/core/issues"
+  },
+  "author": {
+    "name": "Railloom",
+    "url": "https://railloom.com"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "agents",
+    "llm",
+    "workflow",
+    "human-in-the-loop",
+    "anthropic",
+    "claude",
+    "bun",
+    "typescript"
+  ],
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "bun": ">=1.3.0"
+  }
+}
